@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+        margin: 24px auto;
+        width: 500px;
+    }
+    p {
+        margin-bottom: 10px;
+        color: blueviolet;
+    }
+
+    .box1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+
+        p{
+            color: black;
+        }
+    }
+
+    .btn {
+        margin: 24px 43%;
+        width: 200px;
+        height: 50px;
+        color:white;
+        border-radius: 5px;
+        background-color: rgb(103, 27, 174);
+        border: none;
+
+        
+    }
+
+    input {
+        width: 230px;
+        height: 50px;
+        border-radius: 4px;
+        border: 2px solid blueviolet
+    }   
+
+    </style>
+</head>
+<div>
+   
+    <div class="container">
+        <div class="box1">
+            <form>
+                <p>Name</p>
+                <input type="text">
+                <p>need to fill</p>
+            </form>
+
+            <form>
+                <p>Age</p>
+                <input type="number">
+                <p>need to fill</p>
+            </form>
+
+            <form>
+                <p>Surname</p>
+                <input type="text">
+
+            </form>
+            <form>
+                <p>About you</p>
+                <input type="text">
+                <p>need to fill</p>
+            </form>
+            <form>
+                <p>Email you</p>
+                <input type="email">
+                <p>need to fill</p>
+            </form>
+            <form>
+                <p>What is JS?</p>
+                <input type="text">
+                <p>need to fill</p>
+            </form>
+            <form>
+                <p>Phone number</p>
+                <input type="number" >
+    
+            </form>
+    
+            <form>
+                <p>What is Html</p>
+                <input type="text">
+                <p>need to fill</p>
+            </form>
+    
+            <form>
+                <p>Your mom's Name</p>
+                <input type="text">
+    
+            </form>
+            <form>
+                <p>What is CSS?</p>
+                <input type="text">
+                <p>need to fill</p>
+            </form>
+            <form>
+                <p>Your dad's Name</p>
+                <input type="text">
+                <br>
+            </form>
+            <form>
+                <p>Your favorite car</p>
+                <input type="text">
+    
+            </form>
+        </div>
+
+
+    </div>
+    <button class="btn">Save changes</button>
+    
+
+    <script src="./script.js"></script>
+</div>
+</html>
